@@ -1,0 +1,16 @@
+.QPAGE{font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:12px; height: 22px; line-height: 22px; display: inline-block;}
+.QPAGE a{font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,"Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:12px; display:inline-block; cursor: pointer;text-decoration: none;border: 1px solid #c5c5c5; border-radius: 4px; height: 20px; line-height: 20px; color: black;}
+
+.QPAGE .previousBtn{padding-left: 16px; padding-right: 6px; background: url(images/prev.png) no-repeat 0 2px; margin-right: 4px; float: left;}
+.QPAGE .nextBtn{padding-left: 6px; padding-right: 16px; background: url(images/next.png) no-repeat right 2px; margin-right: 4px; float: left;}
+
+.QPAGE .aPage,.QPAGE .morePage{padding-left: 6px; padding-right: 6px; margin-right: 4px; float: left;}
+.QPAGE .selectedPage,.QPAGE .aPage:hover,.QPAGE .previousBtn:hover,.QPAGE .nextBtn:hover{background-color: #058ABE!important;color: white!important;}
+.QPAGE .morePage{border: 0; cursor: default;}
+
+.QPAGE .pageInput{width: 40px; text-align: center; border: 1px solid #c5c5c5; border-radius: 4px; height: 20px; line-height: 20px; padding: 0; margin: 0;vertical-align: text-middle;}
+
+.QPAGE .pageBtn{padding-left: 6px; padding-right: 6px;position:relative;top:-1px;top:-2px\9;*top:-3px;}
+.QPAGE .pageBtn:hover{background-color: #058ABE!important;color: white!important;}
+
+.QPAGE .qpageTotalPage, .QPAGE .qpageTotalNumber{float: left; margin-right: 4px;}
